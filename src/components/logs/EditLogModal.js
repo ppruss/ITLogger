@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
+import TechSelectOptions from "../techs/TechSelectOptions";
 import PropTypes from "prop-types";
 import M from "materialize-css/dist/js/materialize.min.js";
 import { updateLog } from "../../actions/logActions";
@@ -65,9 +66,7 @@ const EditLogModal = ({ current, updateLog }) => {
               <option value="" disabled>
                 Select Technician
               </option>
-              <option value="John Doe">John Doe</option>
-              <option value="Blah Blub">Blah Blub</option>
-              <option value="Bing Bong">Bing Bong</option>
+              <TechSelectOptions />
             </select>
           </div>
         </div>
