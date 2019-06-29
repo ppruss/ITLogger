@@ -2,24 +2,17 @@
   "logs": [
     {
       "id": 1,
-      "message": "Change hard drive",
-      "attention": false,
-      "date": "03-02-2019",
-      "tech": "Sam Smith"
-    },
-    {
-      "id": 2,
-      "message": "fsafsad",
-      "attention": false,
-      "date": "04-02-2019",
-      "tech": "Bob Blib"
-    },
-    {
-      "id": 3,
-      "message": "wtf",
+      "message": "fdsfs111",
       "attention": true,
-      "date": "03-02-2016",
-      "tech": "Greg Gogo"
+      "tech": "John Doe",
+      "date": "2019-06-29T15:29:36.749Z"
+    },
+    {
+      "message": "12345",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2019-06-29T16:48:16.814Z",
+      "id": 2
     }
   ],
   "techs": [
